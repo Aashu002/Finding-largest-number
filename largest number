@@ -1,0 +1,6 @@
+largest = -1
+for nums in [1,24,63,75,89,2,56]:
+    if nums > largest:
+        largest = nums
+    
+print('After',largest)
